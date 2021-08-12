@@ -1,5 +1,6 @@
 :root {
     --primary-color: #062B75;
+    --hover: #0742b9;
 }
 
 body {
@@ -46,10 +47,17 @@ h2 {
 .aboutBtn {
     background: var(--primary-color);
     color: white;
+    padding: 5px 15px;
     border-radius: 5px;
     border: 1px solid var(--primary-color);
     box-shadow: rgb(63, 63, 63) 1px 1px 1px;
     font-size: 15px;
+    text-decoration: none;
+}
+
+.aboutBtn:hover {
+    background: var(--hover);
+    color: white;
 }
 
 p {
@@ -66,6 +74,15 @@ p {
     color: white;
     border-radius: 5px;
     font-size: 14px;
+}
+
+.lang:hover {
+    background: var(--hover);
+}
+
+.logo {
+    width: 20px;
+    color: grey;
 }
 
 .woman-coding-pic {
