@@ -31,7 +31,7 @@ h2 {
     font-size: 20px;
 }
 
-.index-content {
+.about-content {
     background: white;
     border-radius: 10px;
     padding: 20px 5px;
@@ -39,9 +39,24 @@ h2 {
     width: 100%;
 }
 
-.selfie-pic {
+.coding-selfie-pic {
+    width: 270px;
+    border-radius: 10px;
+}
+
+.kayaking-pic {
+    width: 230px;
+    border-radius: 10px;
+}
+
+.games-pic {
     width: 200px;
     border-radius: 10px;
+}
+
+.beach-vid {
+    border-radius: 10px;
+    width: 250px;
 }
 
 .aboutBtn {
