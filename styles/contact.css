@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #062B75;
+    --hover: #0742b9;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("../images/tn.jpg");
+    background-size:cover;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.header {
+    margin: 60px auto;
+    color: var(--primary-color);
+    background:white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    width: 95%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.contact-body {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+
+footer {
+    background: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    .selfie,
+    .woman-coding {
+        display: none;
+        margin: auto;
+    }
+
+    .about-me,
+    .works {
+        width: 95%;
+        left: 5px;
+    }
+}

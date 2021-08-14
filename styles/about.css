@@ -80,21 +80,6 @@ p {
     padding: 0px 15px;
 }
 
-.code-lang {
-    justify-content: space-evenly;
-}
-
-.lang {
-    background: var(--primary-color);
-    color: white;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.lang:hover {
-    background: var(--hover);
-}
-
 .logo {
     width: 20px;
     color: grey;
